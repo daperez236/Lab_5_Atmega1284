@@ -1,7 +1,7 @@
 /*	Author: dpere048
  *  Partner(s) Name: 
  *	Lab Section:
- *	Assignment: Lab #5  Exercise #1
+ *	Assignment: Lab #5  Exercise #2
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -14,13 +14,14 @@
 
 int main(void) {
     /* Insert DDR and PORT initializations */
-    DDRA = 0x00; PORTA = 0xFF; //port a input
-    DDRB = 0x00; PORTB = 0xFF; //port b input
-    DDRC = 0xFF; PORTC = 0x00; //port C output
+    DDRA = 0x00; PORTA = 0xFF;
+    DDRB = 0x00; PORTB = 0xFF;
+    DDRC = 0xFF; PORTC = 0x00;
 	unsigned char tmpB = 0x00;
 	unsigned char tmpA = 0x00;
 	unsigned char tmpC = 0x00;
     /* Insert your solution below */
+
     while (1) {
 	tmpC = 0x00;
 	tmpA = PINA&0x0F;
@@ -54,6 +55,6 @@ int main(void) {
 	tmpC == tmpC | 0x80;
 	}
 	PORTC = tmpC;
-    }
+}
     return 1;
 }
