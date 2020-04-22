@@ -49,7 +49,8 @@ int main(void) {
 	if(tmpA <= 0x04){
 	tmpC = tmpC | 0x40;
 	}
-	if(tmpB == 0x30){
+	tmpB = tmpB >> 4; //shifts to 0000 0111
+	if(tmpB == 3){
 	tmpC == tmpC | 0x80;
 	}
 	PORTC = tmpC;
