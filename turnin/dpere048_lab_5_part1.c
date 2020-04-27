@@ -1,7 +1,7 @@
 /*	Author: dpere048
- *  Partner(s) Name: 
- *	Lab Section:
- *	Assignment: Lab #5  Exercise #2
+ *  Partner(s) Name: https://drive.google.com/open?id=1fT-uN6bOesnuydzr5XzXhU3NWCgICL0f
+ *	Lab Section: 021
+ *	Assignment: Lab #5  Exercise #1
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example

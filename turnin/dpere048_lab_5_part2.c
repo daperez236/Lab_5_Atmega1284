@@ -1,6 +1,6 @@
 /*	Author: dpere048
- *  Partner(s) Name: 
- *	Lab Section:
+ *  Partner(s) Name: https://drive.google.com/open?id=1SXSV7YhAwuY1w2Yiz9p_ECm0Nsuij8e0
+ *	Lab Section: 021
  *	Assignment: Lab #5  Exercise #2
  *	Exercise Description: [optional - include for your own benefit]
  *
